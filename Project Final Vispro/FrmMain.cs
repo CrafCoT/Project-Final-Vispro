@@ -21,5 +21,22 @@ namespace Project_Final_Vispro
         {
 
         }
+
+        private void btnbio_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnschedule_Click(object sender, EventArgs e)
+        {
+            FrmJadwal form2 = new FrmJadwal();
+            form2.Show();
+        }
+
+        private void btngrade_Click(object sender, EventArgs e)
+        {
+            FrmNilai form3 = new FrmNilai();
+            form3.Show();
+        }
     }
 }

@@ -47,6 +47,7 @@
             this.btnbio.ForeColor = System.Drawing.Color.Transparent;
             this.btnbio.Name = "btnbio";
             this.btnbio.UseVisualStyleBackColor = false;
+            this.btnbio.Click += new System.EventHandler(this.btnbio_Click);
             // 
             // btnschedule
             // 
@@ -57,6 +58,7 @@
             this.btnschedule.ForeColor = System.Drawing.Color.Transparent;
             this.btnschedule.Name = "btnschedule";
             this.btnschedule.UseVisualStyleBackColor = false;
+            this.btnschedule.Click += new System.EventHandler(this.btnschedule_Click);
             // 
             // btngrade
             // 
@@ -67,6 +69,7 @@
             this.btngrade.ForeColor = System.Drawing.Color.Transparent;
             this.btngrade.Name = "btngrade";
             this.btngrade.UseVisualStyleBackColor = false;
+            this.btngrade.Click += new System.EventHandler(this.btngrade_Click);
             // 
             // btnabsent
             // 
