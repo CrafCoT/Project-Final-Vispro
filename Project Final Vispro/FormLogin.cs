@@ -58,7 +58,7 @@ namespace Project_Final_Vispro
                         else
                         {
                             MessageBox.Show("Anda salah input password");
-                        }
+                        };
 
                     }
 

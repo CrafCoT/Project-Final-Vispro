@@ -110,6 +110,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BackgroundImage = global::Project_Final_Vispro.Properties.Resources.adrian_infernus_GLf7bAwCdYg_unsplash;
             this.Controls.Add(this.label4);

@@ -73,6 +73,7 @@
             this.tb10.Name = "tb10";
             this.tb10.Size = new System.Drawing.Size(33, 20);
             this.tb10.TabIndex = 23;
+            this.tb10.Text = "-";
             // 
             // tb9
             // 
@@ -80,6 +81,7 @@
             this.tb9.Name = "tb9";
             this.tb9.Size = new System.Drawing.Size(33, 20);
             this.tb9.TabIndex = 22;
+            this.tb9.Text = "-";
             // 
             // tb8
             // 
@@ -87,6 +89,7 @@
             this.tb8.Name = "tb8";
             this.tb8.Size = new System.Drawing.Size(33, 20);
             this.tb8.TabIndex = 21;
+            this.tb8.Text = "-";
             // 
             // tb7
             // 
@@ -94,6 +97,7 @@
             this.tb7.Name = "tb7";
             this.tb7.Size = new System.Drawing.Size(33, 20);
             this.tb7.TabIndex = 20;
+            this.tb7.Text = "24";
             // 
             // tb6
             // 
@@ -101,6 +105,7 @@
             this.tb6.Name = "tb6";
             this.tb6.Size = new System.Drawing.Size(33, 20);
             this.tb6.TabIndex = 19;
+            this.tb6.Text = "25";
             // 
             // pictureBox1
             // 

@@ -71,6 +71,7 @@
             this.tb_ttl.Name = "tb_ttl";
             this.tb_ttl.Size = new System.Drawing.Size(168, 20);
             this.tb_ttl.TabIndex = 38;
+            this.tb_ttl.Text = "12-09-02";
             // 
             // tb_nisn
             // 
@@ -79,6 +80,7 @@
             this.tb_nisn.Name = "tb_nisn";
             this.tb_nisn.Size = new System.Drawing.Size(168, 20);
             this.tb_nisn.TabIndex = 37;
+            this.tb_nisn.Text = "74837483274";
             // 
             // tb_gd
             // 
@@ -87,6 +89,7 @@
             this.tb_gd.Name = "tb_gd";
             this.tb_gd.Size = new System.Drawing.Size(168, 20);
             this.tb_gd.TabIndex = 36;
+            this.tb_gd.Text = "O";
             // 
             // tb_no
             // 
@@ -95,6 +98,7 @@
             this.tb_no.Name = "tb_no";
             this.tb_no.Size = new System.Drawing.Size(168, 20);
             this.tb_no.TabIndex = 35;
+            this.tb_no.Text = "085372859385";
             // 
             // tb_agama
             // 
@@ -103,6 +107,7 @@
             this.tb_agama.Name = "tb_agama";
             this.tb_agama.Size = new System.Drawing.Size(168, 20);
             this.tb_agama.TabIndex = 34;
+            this.tb_agama.Text = "SDAC";
             // 
             // tb_jk
             // 
@@ -111,6 +116,7 @@
             this.tb_jk.Name = "tb_jk";
             this.tb_jk.Size = new System.Drawing.Size(168, 20);
             this.tb_jk.TabIndex = 33;
+            this.tb_jk.Text = "Female";
             // 
             // pictureBox2
             // 
@@ -131,6 +137,7 @@
             this.tb_alamat.Name = "tb_alamat";
             this.tb_alamat.Size = new System.Drawing.Size(168, 20);
             this.tb_alamat.TabIndex = 32;
+            this.tb_alamat.Text = "Airmadidi";
             // 
             // tb_nama
             // 
@@ -139,6 +146,7 @@
             this.tb_nama.Name = "tb_nama";
             this.tb_nama.Size = new System.Drawing.Size(168, 20);
             this.tb_nama.TabIndex = 31;
+            this.tb_nama.Text = "Anjeli Saskia Moonik";
             // 
             // pictureBox1
             // 
