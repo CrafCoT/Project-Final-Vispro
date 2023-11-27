@@ -80,6 +80,7 @@
             this.btnabsent.ForeColor = System.Drawing.Color.Transparent;
             this.btnabsent.Name = "btnabsent";
             this.btnabsent.UseVisualStyleBackColor = false;
+            this.btnabsent.Click += new System.EventHandler(this.btnabsent_Click);
             // 
             // label1
             // 

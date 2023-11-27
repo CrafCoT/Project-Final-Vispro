@@ -22,7 +22,7 @@ namespace Project_Final_Vispro
         private string alamat, query;
         public FormLogin()
         {
-            alamat = "server=localhost; database=db_sus; username=root; password=;";
+            alamat = "server=localhost; database=db_final; username=root; password=;";
             koneksi = new MySqlConnection(alamat);
 
             InitializeComponent();
@@ -84,6 +84,12 @@ namespace Project_Final_Vispro
             {
                 TxtPassword.UseSystemPasswordChar = true;
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ChangePassword form2 = new ChangePassword();
+            form2.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

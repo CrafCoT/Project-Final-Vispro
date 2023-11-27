@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,12 +15,27 @@ namespace Project_Final_Vispro
     {
         public ChangePassword()
         {
+            alamat = "server=localhost; database=db_final; username=root; password=;";
+            koneksi = new MySqlConnection(alamat);
+
             InitializeComponent();
         }
 
         private void ChangePassword_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            FormLogin form1 = new FormLogin();
+            form1.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

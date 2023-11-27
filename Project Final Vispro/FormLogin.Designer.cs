@@ -37,6 +37,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.BtnLogin = new System.Windows.Forms.Button();
+            this.changepass = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,8 +67,9 @@
             // 
             this.ChBox.AutoSize = true;
             this.ChBox.BackColor = System.Drawing.Color.Transparent;
+            this.ChBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ChBox.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChBox.Location = new System.Drawing.Point(224, 233);
+            this.ChBox.Location = new System.Drawing.Point(219, 253);
             this.ChBox.Name = "ChBox";
             this.ChBox.Size = new System.Drawing.Size(107, 17);
             this.ChBox.TabIndex = 2;
@@ -127,6 +129,17 @@
             this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             this.BtnLogin.Enter += new System.EventHandler(this.BtnLogin_Click);
             // 
+            // changepass
+            // 
+            this.changepass.AutoSize = true;
+            this.changepass.Location = new System.Drawing.Point(133, 214);
+            this.changepass.Name = "changepass";
+            this.changepass.Size = new System.Drawing.Size(99, 13);
+            this.changepass.TabIndex = 9;
+            this.changepass.TabStop = true;
+            this.changepass.Text = "Change Password";
+            this.changepass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // FormLogin
             // 
             this.AllowDrop = true;
@@ -136,6 +149,7 @@
             this.BackgroundImage = global::Project_Final_Vispro.Properties.Resources.adrian_infernus_GLf7bAwCdYg_unsplash;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(434, 412);
+            this.Controls.Add(this.changepass);
             this.Controls.Add(this.BtnLogin);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
@@ -167,6 +181,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button BtnLogin;
+        private System.Windows.Forms.LinkLabel changepass;
     }
 }
 

@@ -143,6 +143,46 @@ namespace Project_Final_Vispro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Picture1 {
+            get {
+                object obj = ResourceManager.GetObject("Picture1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Picture9 {
+            get {
+                object obj = ResourceManager.GetObject("Picture9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pink_blue_blur_gradation_wallpaper_preview {
+            get {
+                object obj = ResourceManager.GetObject("pink-blue-blur-gradation-wallpaper-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pink_blue_blur_gradation_wallpaper_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("pink-blue-blur-gradation-wallpaper-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap report {
             get {
                 object obj = ResourceManager.GetObject("report", resourceCulture);
@@ -166,6 +206,16 @@ namespace Project_Final_Vispro.Properties {
         internal static System.Drawing.Bitmap user {
             get {
                 object obj = ResourceManager.GetObject("user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vecteezy_beautiful_blue_and_purple_gradient_background_smooth_and_9795610 {
+            get {
+                object obj = ResourceManager.GetObject("vecteezy_beautiful-blue-and-purple-gradient-background-smooth-and_9795610", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

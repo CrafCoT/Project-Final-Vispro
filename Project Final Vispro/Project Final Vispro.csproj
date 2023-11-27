@@ -55,17 +55,23 @@
     <Compile Include="ChangePassword.Designer.cs">
       <DependentUpon>ChangePassword.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmAdmin.cs">
+    <Compile Include="FrmAbsen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAdmin.Designer.cs">
-      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    <Compile Include="FrmAbsen.Designer.cs">
+      <DependentUpon>FrmAbsen.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBio.Designer.cs">
+      <DependentUpon>FrmBio.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmJadwal.cs">
       <SubType>Form</SubType>
@@ -93,8 +99,11 @@
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmAdmin.resx">
-      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    <EmbeddedResource Include="FrmAbsen.resx">
+      <DependentUpon>FrmAbsen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBio.resx">
+      <DependentUpon>FrmBio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmJadwal.resx">
       <DependentUpon>FrmJadwal.cs</DependentUpon>
@@ -160,6 +169,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="biodata\Resources\pink-blue-blur-gradation-wallpaper-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="biodata\Resources\Picture1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="biodata\Resources\vecteezy_beautiful-blue-and-purple-gradient-background-smooth-and_9795610.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="biodata\Resources\Picture9.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
